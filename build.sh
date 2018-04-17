@@ -15,7 +15,7 @@
 
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DTESTS=ON ..
+cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
 make -j4
 make clang-format-fix
 make clang-format
